@@ -11,3 +11,7 @@
 - 20221356 이승학
 - 20241861 김진호
 - 20221918 정환희
+
+## 데모 영상
+https://github.com/Kchanghyun/Capstone_Design/assets/154062748/74bda6b5-a5f1-4fcc-8b13-d623995b0b31
+
