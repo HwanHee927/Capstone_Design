@@ -5,12 +5,13 @@ const path = require("path");
 const app = express();
 
 app.use(express.static('public'));
-app.use(favicon(path.join(__dirname, 'favicon.ico')));
+app.use(express.static(path.join(__dirname, '../public')));
+app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')));
 
 app.set('view engine', 'hbs');
 
 app.get('/', (req, res) => {
-    res.render('Entrance.hbs');
+    res.render('entrance.hbs');
 });
 
 app.get('/category', (req, res) => {
@@ -41,5 +42,8 @@ app.get('/dessert', (req, res) => {
     res.render('dessert.hbs');
 });
 
+app.get('/payment', (req, res) => {
+    res.render('payment.hbs');
+});
 
 app.listen(3000);
