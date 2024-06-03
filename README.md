@@ -13,5 +13,4 @@
 - 20221918 정환희
 
 ## 데모 영상
-https://github.com/Kchanghyun/Capstone_Design/assets/154062748/74bda6b5-a5f1-4fcc-8b13-d623995b0b31
-
+https://github.com/Kchanghyun/Capstone_Design/assets/154062748/dce3a745-e4cc-43dc-bb46-9158826facad
